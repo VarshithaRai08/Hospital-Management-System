@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form with Image</title>
+  <style>
+    h1 {
+      text-align: center;
+    }
+    
+    .success {
+      color: green;
+      text-align: center;
+      font-weight: 600;
+      font-size: 20px;
+    }
+    
+    .image-container {
+      text-align: center;
+    }
+    
+    .image-container img {
+      margin-top: 160px;
+      max-width: 100px;
+      height: auto;
+    }
+    
+    .button-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .button-container button {
+      padding: 8px 15px;
+      font-size: 16px;
+      background-color: rgb(21, 185, 21);
+      color: white;
+      border: none;
+    }
+    
+    /* Remove underline for the "Done" link */
+    .button-container button a {
+      text-decoration: none;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <div class="image-container">
+      <img src="../img/download1.png" alt="Download Image">
+    </div>
+    
+    <h1>Thank you!</h1>
+    
+    <p class="success">Your Payment is Successfully Done</p>
+    <div class="button-container">
+      <button type="button">
+        <a href="../Admin/dischargepatientlist.php">Done</a>
+      </button>
+    </div>
+    
+  </form>
+</body>
+</html>
